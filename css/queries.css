@@ -1,6 +1,15 @@
 @media (min-width: 576px){
+    .collection-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .support {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (min-width: 768px){
+    .collection-item {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media (min-width: 992px){
     .navbar-toggler {
@@ -14,6 +23,9 @@
     }
     .nav-link.right {
         margin-right: auto;
+    }
+    .featured {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (min-width: 1200px){

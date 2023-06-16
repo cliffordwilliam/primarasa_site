@@ -160,8 +160,8 @@
 
 /* hero */
 .hero {
-    height: 40vh;
-    margin-bottom: 10rem;
+    height: 500px;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -173,14 +173,12 @@
     display: flex;
 }
 
-.hero-background .prev-button {
-    /* width: 5%; */
+#carousel2 .prev-button {
     margin-bottom: 1rem;
     right: 50%;
 }
 
-.hero-background .next-button {
-    /* width: 5%; */
+#carousel2 .next-button {
     margin-bottom: 1rem;
     left: 50%;
 }
@@ -198,10 +196,6 @@
 .bg-3 {
     background: linear-gradient(rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%), url(../assets/hampers_kotak_harian_3.JPG) center center no-repeat scroll;
     background-size: cover;
-}
-
-.hero-brand-icon {
-    margin: 0 auto 1.5rem auto;
 }
 
 .hero > h1 {
@@ -231,5 +225,93 @@
 }
 
 .collection {
+    padding: 0 0 2rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.collection-item {
+    gap: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+#carousel3 .prev-button {
+    margin-bottom: 0;
+    right: 50%;
+}
+
+#carousel3 .next-button {
+    margin-bottom: 0;
+    left: 50%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+}
+
+.card > * {
+    display: block;
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.support {
     padding: 2rem 0;
+}
+
+.support-container {
+    background-color: #076;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.support-container > * {
+    display: block;
+}
+
+.support > img {
+    max-width: 100%;
+}
+
+.featured {
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.featured .card{
+    text-align: start;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.feature-icon-container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #076;
+    border-radius: 0.75rem;
+}
+
+.featured-link {
+    display: flex;
+    align-items: center;
+    gap: 0 0.125rem;
 }

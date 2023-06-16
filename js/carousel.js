@@ -65,4 +65,5 @@ function initializeCarousel(carouselId, isAuto = false) {
   
   initializeCarousel("carousel1", true);
   initializeCarousel("carousel2", true);
+  initializeCarousel("carousel3");
   
