@@ -1,0 +1,235 @@
+.container {
+    width: min(94vw, 1320px);
+    margin: 0 auto;
+    padding: 0 0.75rem;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #076;
+    border: 1px solid #076;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.btn.secondary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #076;
+} 
+
+/* carousel */
+.carousel-anchor {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+}
+
+.carousel-container.slide-right {
+    transform: translateX(100%);
+    transition: transform .6s ease-in-out;
+    flex-direction: row-reverse;
+}
+
+.carousel-container.slide-left {
+    transform: translateX(-100%);
+    transition: transform .6s ease-in-out;
+    flex-direction: row;
+}
+
+.carousel-item {
+    display: none;
+    flex: 0 0 100%;
+    order: 0;
+}
+
+.carousel-item.lead {
+    order: 1;
+}
+
+.carousel-item.show {
+    display: block;
+}
+
+.prev-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: auto 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+.next-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+/* global banner */
+.global-banner {
+    background-color: #076;
+    padding: 0.5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.global-banner a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.global-banner .prev-button, .global-banner .next-button {
+    pointer-events: none;
+    cursor: none;
+}
+
+.global-banner-item-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar */
+.navbar {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    color: #076;
+}
+
+.navbar-toggler {
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    gap: 0 1rem;
+    height: 0;
+    display: none;
+    flex: 1 0 100%;
+    overflow: hidden;
+    -webkit-transition: height 0.35s ease;
+    -moz-transition: height 0.35s ease;
+    -ms-transition: height 0.35s ease;
+    -o-transition: height 0.35s ease;
+    transition: height 0.35s ease;
+    flex-direction: column;
+}
+
+.navbar-collapse.show {
+    display: flex;
+  }
+
+.nav-link {
+    font-weight: 700;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #076;
+}
+
+.nav-link.right {
+    margin-right: 0;
+}
+
+/* hero */
+.hero {
+    height: 40vh;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.hero.show {
+    display: flex;
+}
+
+.hero-background .prev-button {
+    /* width: 5%; */
+    margin-bottom: 1rem;
+    right: 50%;
+}
+
+.hero-background .next-button {
+    /* width: 5%; */
+    margin-bottom: 1rem;
+    left: 50%;
+}
+
+.bg-1 {
+    background: linear-gradient(rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%), url(../assets/hampers_kotak_harian.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: linear-gradient(rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%), url(../assets/hampers_kotak_harian_2.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: linear-gradient(rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%), url(../assets/hampers_kotak_harian_3.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.hero-brand-icon {
+    margin: 0 auto 1.5rem auto;
+}
+
+.hero > h1 {
+    font-size: min(calc(1.425rem + 2.1vw), 3rem);
+    font-weight: 700;
+}
+
+.plead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.hero-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.collection {
+    padding: 2rem 0;
+}

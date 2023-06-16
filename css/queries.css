@@ -1,0 +1,22 @@
+@media (min-width: 576px){
+}
+@media (min-width: 768px){
+}
+@media (min-width: 992px){
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-collapse {
+        display: flex;
+        height: 100% !important;
+        flex: 1 0 0;
+        flex-direction: row;
+    }
+    .nav-link.right {
+        margin-right: auto;
+    }
+}
+@media (min-width: 1200px){
+}
+@media (min-width: 1400px){
+}

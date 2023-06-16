@@ -4,185 +4,112 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Primarasa - Bakery & Pastry Since 1986</title>
+  <title>Primarasa Bakery & Pastries | Home</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/queries.css">
 </head>
 <body>
-  <nav class="navbar">
-    <a class="navbar-logo" href="index.html">Primarasa</a>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="./public/about.html">About</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-dropdown="menu1">Services</a>
-        <div id="menu1" class="dropdown-content">
-          <a href="#">Service 1</a>
-          <a href="#">Service 2</a>
-          <a href="#">Service 3</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-dropdown="menu2">Products</a>
-        <div id="menu2" class="dropdown-content">
-          <a href="#">Product 1</a>
-          <a href="#">Product 2</a>
-          <a href="#">Product 3</a>
-        </div>
-      </li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="navbar-toggle">
-      <span class="hamburger-icon" data-dropdown="menu3">&#9776;</span>
-    </div>
-    <div id="menu3" class="sidebar">
-      <div class="sidebar-header">
-        <a class="navbar-logo" href="#">Primarasa</a>
-        <div class="navbar-toggle">
-          <span class="hamburger-icon" data-dropdown="menu3">&times;</span>
-        </div>
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="./public/about.html">About</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-dropdown="menu4">Services</a>
-          <div id="menu4" class="dropdown-content">
-            <a href="#">Service 1</a>
-            <a href="#">Service 2</a>
-            <a href="#">Service 3</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-dropdown="menu5">Products</a>
-          <div id="menu5" class="dropdown-content">
-            <a href="#">Product 1</a>
-            <a href="#">Product 2</a>
-            <a href="#">Product 3</a>
-          </div>
-        </li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div class="off-canvas-backdrop"></div>
-  </nav>
-  
-  <header class="hero-main">
-    <div class="hero-content">
-      <img src="https://images.tokopedia.net/img/cache/1200/BgtCLw/2021/2/8/c75ee833-b52e-4896-9f92-e056d6e3d5ec.jpg.webp?ect=4g" alt="" width="100%">
-    </div>
-  </header>
-  
-  <section class="featured">
-    <div class="container">
-      <h2>Featured Section</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      
-      <div class="features">
-        <div class="feature">
-          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qc4pujYxbCPVZnRxD5P8umbTnAYpby5znCToqYrdC-KS8hP-ahbTEcOyW-k0RCCIKRbz9NAb8EruG21DTFJDgPr8Tw=w2486-h1500" alt="">
-          <h3>Feature 1</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-        <div class="feature">
-          <img src="https://lh3.google.com/u/0/d/1FBrJnxvM7X_oGpcRp8sDLv17hNxdRBRO=w2486-h1500-iv2" alt="">
-          <h3>Feature 2</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-        <div class="feature">
-          <img src="https://lh3.google.com/u/0/d/1nt_GOTtl8cL1nrjYyyA0d4Zu1_iz83Qb=w1414-h1500-iv2" alt="">
-          <h3>Feature 3</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="featured">
-    <div class="container">
-      <h2>Featured Section</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      
-      <div class="features">
-        <div class="feature">
-          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qc4pujYxbCPVZnRxD5P8umbTnAYpby5znCToqYrdC-KS8hP-ahbTEcOyW-k0RCCIKRbz9NAb8EruG21DTFJDgPr8Tw=w2486-h1500" alt="">
-          <h3>Feature 1</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-        <div class="feature">
-          <img src="https://lh3.google.com/u/0/d/1FBrJnxvM7X_oGpcRp8sDLv17hNxdRBRO=w2486-h1500-iv2" alt="">
-          <h3>Feature 2</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-        <div class="feature">
-          <img src="https://lh3.google.com/u/0/d/1nt_GOTtl8cL1nrjYyyA0d4Zu1_iz83Qb=w1414-h1500-iv2" alt="">
-          <h3>Feature 3</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section style="background-color: #f5f5f5;">
-    <div class="container">
-      <div class="carousel">
+  <header>
+    <section>
+      <div class="global-banner" id="carousel1">
         <div class="carousel-container">
-          <div class="carousel-slide">
-            <img src="https://lh3.google.com/u/0/d/11k1R8T8xxQuvGsBTJoqKsDK3LxUMPCwA=w1414-h1500-iv2" alt="Image 1">
+          <div href="#" class="carousel-item show">
+            <div class="global-banner-item-container">
+              <a href="#">Baked daily, shipped nationwide</a>
+            </div>
           </div>
-          <div class="carousel-slide">
-            <img src="https://lh3.google.com/u/0/d/14cB4i1BWHUAeXTtTZUElqtcWj5V0n4S5=w1414-h1500-iv1" alt="Image 2">
+          <div href="#" class="carousel-item">
+            <div class="global-banner-item-container">
+              <a href="#">Order your gift boxes today</a>
+            </div>
           </div>
-          <div class="carousel-slide">
-            <img src="https://lh3.google.com/u/0/d/1OXYj1sm_xe4oahOLHX4TYsv3e3MJKu4E=w1414-h1500-iv2" alt="Image 3">
+        </div>
+        <div class="prev-button"></div>
+        <div class="next-button"></div>
+      </div>
+    </section>
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">PRIMARASA</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" fill="#076" viewBox="0 0 16 16" class="navbar-toggler">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      <div class="navbar-collapse">
+          <a href="#" class="nav-link">Shipping</a>
+          <a href="#" class="nav-link">Delivery</a>
+          <a href="#" class="nav-link right">Events</a>
+          <a href="#" class="nav-link">Our Story</a>
+          <a href="#" class="nav-link">Our Bakers</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="carousel-anchor" id="carousel2">
+      <div class="carousel-container">
+        <div class="bg-1 carousel-item show">
+          <div class="container hero">
+            <h1>Welcome to Primarasa</h1>
+            <p class="plead">a thoughtful expression of modern craft through good food and warm experiences.</p>
+            <div class="hero-button-container">
+                <button class="btn">Read More</button>
+                <button class="btn secondary">Delivery</button>
+            </div>
           </div>
         </div>
-        <button class="prev-button">Back</button>
-        <button class="next-button">Next</button>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="features">
-        <div class="footer-item">
-          <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="bg-2 carousel-item">
+          <div class="container hero">
+            <h1>Share our tastes? Come work with us.</h1>
+            <p class="plead">Say hello to Banana Pudding, a candle that transports you to the West Village with notes of fresh cardamom and strong smoked guaiac wood that are both nostalgic and indulgent.</p>
+            <div class="hero-button-container">
+                <button class="btn">Read More</button>
+                <button class="btn secondary">See Open Positions</button>
+            </div>
+          </div>
         </div>
-        <div class="footer-item">
-          <h3>Contact</h3>
-          <ul>
-            <li>Phone: 123-456-7890</li>
-            <li>Email: example@example.com</li>
-            <li>Address: 123 Street, City, Country</li>
-          </ul>
-        </div>
-        <div class="footer-item">
-          <h3>Follow Us</h3>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
+        <div class="bg-3 carousel-item">
+          <div class="container hero">
+            <h1>Send Dad Desserts He'll Love!</h1>
+            <p class="plead">Father's Day treats are here! Our world-famous desserts, featuring the limited-time Dad Bod Dessert Bundle, will delight any Dad.</p>
+            <div class="hero-button-container">
+                <button class="btn">Read More</button>
+                <button class="btn secondary">Shop Now</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="#fff" viewBox="0 0 16 16" class="prev-button">
+        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="#fff" viewBox="0 0 16 16" class="next-button">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </section>
+    <section>
+      <div class="container jumbotron">
+        <h2>NOT JUST A COOKIE, BUT *THE* COOKIE</h2>
+        <p class="plead">We started baking big, crispy-on-the-outside, gooey-on-the-inside cookies in New York back in 1995. Since then, they’ve become a cult favorite. Made fresh in the Big Apple (and shipped same-day!), a cookie gift box shows you care — and that you have great taste.</p>
+        <button class="btn">Shop All Cookies</button>
       </div>
-    </div>
-  </footer>
-  
-
-  <script src="./js/dropdown.js"></script>
-  <script src="./js/hamburger.js"></script>
+    </section>
+    <section>
+      <div class="container collection">
+        <div class="carousel-anchor" id="carousel3">
+          <div class="carousel-container">
+            <div href="#" class="carousel-item show">
+              <!-- grid container here like in swat feature -->
+            </div>
+            <div href="#" class="carousel-item">
+              <!-- grid container here like in swat feature -->
+            </div>
+          </div>
+          <div class="prev-button"></div>
+          <div class="next-button"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/navbar-collapse.js"></script>
   <script src="./js/carousel.js"></script>
-  <script src="./js/navlink-color.js"></script>
 </body>
 </html>
