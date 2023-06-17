@@ -411,6 +411,35 @@ footer {
     background-size: cover;
 }
 
+.story-image-2 {
+    background: url(../assets/BAGELEN\ BASAH\ COKLAT\ CUP.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.story-image-3 {
+    background: url(../assets/BAGELEN\ BASAH\ COKLAT\ CUP_2.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.story-image-4 {
+    background: url(../assets/ROTI\ RUSSIAN\ TWIST.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.content > h2 {
+    color: #fff;
+    background-color: #076;
+    padding: 1rem;
+}
+
 .story-container {
     display: flex;
     flex-direction: column;
@@ -418,4 +447,21 @@ footer {
 
 .story-containerstory > * {
     display: block;
+}
+
+.about-story-2 {
+    background-color: #076;
+    gap: 2rem;
+}
+
+.container-2 {
+    padding: 2rem 0;
+}
+
+.story-container-2 {
+    padding: 2rem 1rem;
+}
+
+.story-container-2 > * {
+    color: #fff;
 }

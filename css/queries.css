@@ -32,7 +32,7 @@
     }
 }
 @media (min-width: 1200px){
-    .about-story {
+    .about-story, .about-story-2 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
