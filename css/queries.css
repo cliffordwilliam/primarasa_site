@@ -27,8 +27,14 @@
     .featured {
         grid-template-columns: repeat(3, 1fr);
     }
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (min-width: 1200px){
+    .about-story {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (min-width: 1400px){
 }

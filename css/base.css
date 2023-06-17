@@ -11,6 +11,11 @@ img, svg {
     display: block;
 }
 
+button {
+    cursor: pointer;
+    background-color: transparent;
+}
+
 a {
     color: #06f;
     text-decoration: underline;
